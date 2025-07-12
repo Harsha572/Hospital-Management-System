@@ -1,0 +1,33 @@
+.doctor-dashboard {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 25px;
+  background: #f5faff;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+.doctor-dashboard h2,
+.doctor-dashboard h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.summary {
+  margin-bottom: 30px;
+  background: #e1f7e7;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.doctor-dashboard ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.doctor-dashboard li {
+  background: #eef1f7;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 6px;
+}

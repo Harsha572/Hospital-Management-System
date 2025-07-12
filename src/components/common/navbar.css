@@ -1,0 +1,31 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+}
+
+.navbar h3 {
+  margin: 0;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.navbar-right span {
+  font-weight: bold;
+}
+
+.navbar button {
+  padding: 5px 10px;
+  background-color: white;
+  color: #007bff;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}

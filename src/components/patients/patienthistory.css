@@ -1,0 +1,30 @@
+.patient-history {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #fffdf6;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.patient-history h2 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.patient-history table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 16px;
+}
+
+.patient-history th,
+.patient-history td {
+  padding: 12px 16px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.patient-history th {
+  background-color: #f0f8ff;
+}

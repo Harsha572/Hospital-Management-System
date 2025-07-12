@@ -68,3 +68,75 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+🏥 Hospital Management System (Frontend-Only)
+A fully functional hospital management system built using React. It supports three types of users:
+
+👨‍⚕️ Doctor
+
+🧑‍💼 Hospital Administrator
+
+🧑‍🦽 Patient
+
+No backend or database is used. All data is persisted in localStorage.
+
+🚀 Features
+👤 User Roles
+Role	Capabilities
+Admin	Register hospitals with departments, manage departments
+Doctor	Register/login, define specializations, link to hospitals, set slots/fees
+Patient	View hospitals and doctors, search by specialization/hospital, book appointments, view booking history
+
+🧱 Technology Stack
+React (Functional Components & Hooks)
+
+React Router DOM
+
+CSS
+
+LocalStorage (as persistent database)
+
+💻 Setup Instructions
+1. Clone the Repository
+git clone https://github.com/your-username/hospital-management-system.git
+cd hospital-management-system
+2. Install Dependencies
+npm install
+3. Run the App
+npm start
+Open http://localhost:3000 in your browser.
+
+🗃️ Data Flow Overview
+1. localStorage Keys Used:
+Key	Description
+hospitals	List of registered hospitals
+doctors	Registered doctor profiles
+bookings	Patient bookings (appointments)
+currentUser	Stores currently logged-in user info
+
+2. Booking Flow:
+Patient selects specialization and hospital.
+
+System filters available doctors.
+
+Patient books a slot.
+
+Booking is saved to localStorage under bookings.
+
+📷 Screenshots
+(Add screenshots of Hospital Register, Doctor Booking, Patient Dashboard, etc.)
+
+🛠️ Future Enhancements
+⛅ Add backend (Node.js + Express + PostgreSQL)
+
+📱 Make mobile responsive
+
+🔐 Role-based route protection
+
+📊 Admin dashboard with analytics
+
+👨‍💻 Author
+Harshavardhan Reddy
+[LinkedIn](https://www.linkedin.com/in/harshavardhan-reddy-391b51218/) • [GitHub](https://github.com/Harsha572)

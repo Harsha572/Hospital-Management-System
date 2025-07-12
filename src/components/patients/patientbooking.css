@@ -1,0 +1,51 @@
+.booking-page {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 25px;
+  background: #f9fffc;
+  border-radius: 12px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+}
+
+.filters {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.filters label {
+  font-weight: bold;
+}
+
+.filters select,
+.filters input {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.filters button {
+  padding: 10px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.doctor-card {
+  background: #eef9ff;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.doctor-card ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.doctor-card li {
+  margin-bottom: 10px;
+}

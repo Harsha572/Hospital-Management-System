@@ -1,0 +1,20 @@
+.patient-home {
+  padding: 20px;
+}
+
+.patient-home section {
+  margin-bottom: 30px;
+}
+
+.patient-home ul {
+  list-style: none;
+  padding: 0;
+}
+
+.patient-home li {
+  background: #f9f9f9;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: 0 0 4px #ccc;
+}
